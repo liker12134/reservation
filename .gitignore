@@ -3,6 +3,7 @@
 *.iml
 # BlueJ files
 *.ctxt
+out/
 .DS_Store
 
 # Mobile Tools for Java (J2ME)
