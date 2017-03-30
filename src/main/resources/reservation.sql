@@ -11,6 +11,7 @@ Target Server Version : 50716
 File Encoding         : 65001
 
 Date: 2016-12-03 17:22:39
+CREATE USER 'reservation'@'%' IDENTIFIED BY 'reservation';
 */
 
 SET FOREIGN_KEY_CHECKS=0;

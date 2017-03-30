@@ -1,25 +1,25 @@
-<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<%@ page language="java" pageEncoding="utf-8" %>
 
 
 <!DOCTYPE HTML>
 <html>
-  <head>
+<head>
     <title>错误页面</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<meta http-equiv="pragma" content="no-cache">
-	<meta http-equiv="cache-control" content="no-cache">
-	<meta http-equiv="expires" content="0">    
-	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
-	<meta http-equiv="description" content="This is my page">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
-	
-	<link rel="stylesheet" href="bootstrap2/css/bootstrap.min.css" type="text/css">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="This is my page">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+
+    <link rel="stylesheet" href="bootstrap2/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="bootstrap2/css/bootstrap-responsive.min.css" type="text/css">
     <link rel="stylesheet" href="bootstrap2/css/bootstrap-overrides.css" type="text/css"></link>
-    
-	
-	<style>
-	* {
+
+
+    <style>
+        * {
             line-height: 1.2;
             margin: 0;
         }
@@ -62,16 +62,16 @@
             }
 
         }
-  	</style>
-  </head>
-  
-  <body>
-   	<h1>404</h1>
-   	<p>对不起，您访问的页面不存在！</p>
-   
-   	<!-- 
-  		<p><a href="/reservation/user.do?flag=welcome">返回首页</a></p>
-   		<img src="img/error/404.png" style="width:100%"></img>
-   	 -->
- </body>
+    </style>
+</head>
+
+<body>
+<h1>404</h1>
+<p>对不起，您访问的页面不存在！</p>
+
+<!--
+   <p><a href="/reservation/user.do?flag=welcome">返回首页</a></p>
+    <img src="img/error/404.png" style="width:100%"></img>
+ -->
+</body>
 </html>
