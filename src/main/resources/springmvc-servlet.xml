@@ -46,7 +46,9 @@
                 <prop key="hibernate.hbm2ddl.auto">update</prop>
                 <prop key="hibernate.show_sql">true</prop>
                 <prop key="hibernate.format_sql">true</prop>
-                <prop key="hibernate.connection.url">jdbc:mysql://118.89.142.57:3306/reservation</prop>
+                <prop key="hibernate.connection.url">
+                    jdbc:mysql://118.89.142.57:3306/reservation?characterEncoding=UTF-8
+                </prop>
                 <prop key="hibernate.connection.driver_class">com.mysql.jdbc.Driver</prop>
             </props>
         </property>

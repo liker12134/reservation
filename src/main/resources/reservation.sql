@@ -1,7 +1,6 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : 脚边的服务器
 Source Server Version : 50716
 Source Host           : 10.82.60.128:3306
 Source Database       : reservation
