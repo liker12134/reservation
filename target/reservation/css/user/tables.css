@@ -1,0 +1,225 @@
+select[class*="select"].m-wrap{
+	float: none;
+    width: 470px;
+    height:35px;
+    margin-left: 0;
+    border-radius: 0 !important;
+}
+
+.btn-bbblue {
+    color: white;
+    background-color:#4D90FE;
+    border-color: transparent;
+    margin-right: 7px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #fff;
+	position: relative;
+	margin: 0px;
+	font-size: 12px;
+	padding: 0px;
+	/*-webkit-font-smoothing: antialiased;*/
+}
+#sidebar-nav {
+	
+}
+.row-fluid.table-hover{
+      th input[type="checkbox"] {
+    margin-top: 4px;
+    }
+
+      input[type="checkbox"] {
+    float: left;
+    margin-top: 11px;
+    margin-right: 23px;
+    }
+}
+h1,h2,h3,h4,h5 {
+	margin: 10;
+	line-height: inherit;
+	color: #29323d;
+}
+/* general table styles */
+.table-wrapper {
+  width: 100%;
+  margin-bottom: 100px; }
+  .table-wrapper .filter-block {
+    margin-bottom: 34px; }
+    .table-wrapper .filter-block .ui-select {
+      margin-right: 20px;
+      top: 1px;
+      height: 24px;
+      width: 150px; }
+    .table-wrapper .filter-block .search {
+      margin: 0 60px 0 0; }
+    .table-wrapper .filter-block .new-product {
+      padding: 4px 14px; }
+  .table-wrapper .table .img {
+    height: 31px;
+    float: left;
+    background: white;
+    width: 31px;
+    border: 1px solid #dfe4eb;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 23px; }
+    .table-wrapper .table .img img {
+      margin-top: 4px; }
+  .table-wrapper .table tr.first td {
+    border-top: 0 none; }
+  .table-wrapper .table td a {
+    text-decoration: underline;
+    display: inline-block; }
+  .table-wrapper .table td.description {
+    vertical-align: middle;
+    color: #516372; }
+  .table-wrapper .table ul.actions {
+    margin: 5px 0 0 0;
+    padding: 0;
+    float: right; }
+    .table-wrapper .table ul.actions li {
+      display: inline;
+      padding: 5px 6px 0px 3px; }
+      .table-wrapper .table ul.actions li.last {
+        border: 0 none; }
+    .table-wrapper .table ul.actions i {
+      cursor: pointer;
+      opacity: 0.6;
+      transition: opacity .1s linear;
+      -moz-transition: opacity .1s linear;
+      -webkit-transition: opacity .1s linear;
+      -o-transition: opacity .1s linear; }
+      .table-wrapper .table ul.actions i:hover {
+        opacity: 1; }
+  .table-wrapper .label {
+    position: relative; }
+
+.form-horizontal .controls {
+margin-left: 100px;
+}
+
+input[class*="span"].m-wrap {
+    float: none;
+    width: 450px;
+    margin-left: 0;
+    border-radius: 0 !important;
+  
+}
+label{  
+    display: inline-block;  
+    padding: 0 10px;  
+    vertical-align: middle;  
+}  
+input{  
+    outline: none;  
+    border: 1px solid rgb(216, 216, 216);  
+    padding: 2px 10px 2px 10px;
+    
+}  
+input[type="text"]{  
+    height: 14px;  
+    line-height: 14px;  
+    border-radius: 5px;  
+    padding:10px 10px;  
+    vertical-align: middle;  
+    color:#666;  
+} 
+/*btn*/
+
+.botton-group {
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+    font-size: 0;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.btn-green{
+    border-color: transparent;
+    margin-right: 7px;
+    color: white;
+    text-shadow: none;
+    background-color: #35aa47;
+
+}
+.btn-blue{
+    border-color: transparent;
+    margin-right: 7px;
+    color: white;
+    text-shadow: none;
+    background-color: #4d90fe;
+}
+.btn-gray{
+    border-color: transparent;
+    margin-right: 7px;
+    color: black;
+    text-shadow: none;
+    background-color: #e5e5e5;
+}
+element.style {
+}
+
+.btn.green {
+color: white;
+text-shadow: none;
+background-color: #35aa47;
+}
+.btn-green a:hover{
+    text-decoration: none;
+    color: white;
+}
+.btn-green a{
+    text-decoration: none;
+    color: white;
+}
+.btn-whitegreen {
+    color: #679C68;
+    background-color:burlywood;
+    border-color: transparent;
+    margin-right: 7px;
+}
+.btn-gray {
+    color: #fff;
+    background-color: #4F4A4A;
+    border-color: transparent;
+    margin-right: 7px;
+}
+/* products table specific styles */
+.table-wrapper.products-table a.name {
+  position: relative;
+  top: 6px; }
+
+/* orders table specific styles */
+.table-wrapper.orders-table td {
+  padding: 12px 8px; }
+
+
+/*Responsive*/
+@media (max-width: 979px) {
+  .pointer {
+    top: 26.8%; } }
+@media (max-width: 767px) {
+  .table-wrapper .table .img {
+    display: none; }
+  .table-wrapper .table input[type="checkbox"] {
+    margin-right: 10px; }
+  .table-wrapper .table .label {
+    display: none; }
+  .table-wrapper .filter-block .search {
+    width: 30%;
+    margin: 0 10px 0 0; }
+  .table-wrapper .filter-block .order-search {
+    float: left;
+    margin: 0;
+    width: 40%; }
+  .table-wrapper .filter-block .user-search {
+    float: left;
+    margin: 0;
+    width: 55%; }
+  .table-wrapper .filter-block .add-user {
+    margin-top: 0; } }
+

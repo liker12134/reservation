@@ -4,6 +4,7 @@
 # BlueJ files
 *.ctxt
 out/
+target/
 .DS_Store
 
 # Mobile Tools for Java (J2ME)

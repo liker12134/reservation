@@ -1,0 +1,189 @@
+
+/*导航栏样式表 导航栏的背景底色设置-----lv色*/
+/*
+input[disabled] .mini-form, select[disabled] .mini-form, input[readonly] .mini-form, select[readonly] .mini-form,
+{
+    background-color: transparent !important;
+}
+*/
+
+ input[class]  , select[class], textarea[class], input[class], select[class], textarea[class]
+{
+    background-color: transparent !important;
+    border-radius: 2px;
+}
+@media screen and (max-width:980px )
+{
+     .usermenu
+.usermenu
+    {
+         display: none;
+/*         float: right!important;*/
+     }
+   
+}
+@media screen and (max-width:780px )
+{
+     .brand
+     {
+         display: none !important;
+     }
+   
+}
+.header.navbar-green
+{
+    border-style:solid;
+    height: 37px;
+    background-color: #EFEFEF ! important;
+    border-bottom-color: #5F9760;
+    border-right-color: #EFEFEF;
+    border-left-color: #EFEFEF;
+    border-top-color: #EFEFEF;
+    border-bottom-width: 5px ;
+    color: #6B6363;
+}
+
+.brandfont {
+    font-family: "黑体"!important;
+}
+
+/*在这里修改用户信息的hover*/
+.header .nav .dropdown-toggle:hover, .header .nav .dropdown.open .dropdown-toggle
+{
+    background-color: transparent!important;
+    text-decoration: underline!important;
+    
+}
+.grade {
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+.mini-form {
+    width: 75px;
+    margin-right: 12px;
+    margin-top: 5px;
+    border-style: solid;
+    border-color:#FDFBF0;
+}
+
+.formheight {
+    margin-top: 20px !important;
+}
+
+.formheight2 {
+    margin-top: 70px;
+    padding-left: 10px;
+    padding-bottom: 70px;
+    padding-top: 50px;
+}
+
+.brandf2 {
+    font-size: 15px!important;
+    padding-left: 20px;
+    color: black;
+}
+
+
+
+.btn-whitegreen {
+   
+    color:#fff!important;
+  background-color: #AD564B!important;;
+  border-color: transparent;
+
+}
+
+.navbar-gray {
+    
+    height: 53px;
+    background-color: #E5E5E5;
+    color: #6B6363;
+    width：980px;
+    margin-left: 35px;
+
+}
+
+.btn-green {
+        color: #ffffff;
+    background-color: #679C68!important;
+    border-color: transparent;
+
+}
+
+.btn-gray {
+  color: #fff;
+  background-color: #4F4A4A;
+  border-color: transparent;
+}
+
+.littlegrade {
+    padding-right: 25px;
+}
+
+
+
+.hos_total {
+    border-left:2px solid #d84a38;
+    background-color:#EFEFEF;
+    font-size: 20px;
+  
+    
+}
+
+.medkit_sty {
+   margin-left: 10px;
+   margin-right: 10px;
+   
+    
+}
+
+
+
+.three_style {
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.pstyle {
+    font-size: 14px;
+}
+
+.table-white {
+    background-color: #ffffff !important;
+}
+.dropdown-menu
+{
+border-radius: 0px;
+}
+button[class].save-btn {
+    width: 70px;
+    height: 30px;
+/*    border: 3px !important;*/
+    border-left-color: #e02222!important;
+    border-right-color: transparent!important;
+        border-top-color: #EFEFEF !important;
+        border-bottom-color: transparent!important;
+    
+    background-color: #EFEFEF !important;
+    margin-top: 25px;
+/*    font-family: "微软雅黑";*/
+}
+
+.save-style a{
+    background-color:#5F9760!important;
+    color: white !important;
+     border-bottom: 0;
+}
+
+.sysname {
+    background-image:url(../img/tree.png) ;
+    background-repeat:no-repeat;
+    background-size: 420px 40px;
+}
+
+.print-sty {
+    padding-bottom: 40px;
+    
+}
