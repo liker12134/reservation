@@ -22,8 +22,11 @@
   - Here are a few small problems. When I use the system, I find the message people write could be illegal. For example, 
   - I can select the appointment time surpass the given, but there are no warning, 
   - and the phone number not be checked at all, which should be a 11 Numbers.
+  
+* 【前端】关于管理员维护
 
-  ​
+  * 在新增管理员时，密码可以为空。出于安全考虑，应该加个验证，防止空密码的出现。
+   ​
 
 * 【后端】对已过期的预约进行“取消”操作不合理
 
@@ -37,10 +40,6 @@
 
   * http://118.89.142.57:8080/reservation/admin.do?flag=showClass
 
-* 【后端】登入总次数逻辑错误
-
-  * 最近一次登入是显示未更新的最近一次登入，而登入总次数应该显示更新后的。而系统还是用的更新前的。即历史登入总次数为1，登入后应该显示2，后台更新为2，UI应该取更新后的值2而非1.
-
 * 【后端】同一个教室同一预约时间用同一个班级账号可以预约多次
 
   * 查看历史预约消息发现E506在2016-12-10的8:30-11:30用1603班的账号预约了3次
@@ -51,9 +50,12 @@
 
     错误页面  failed to lazily initialize a collection of role: edu.zju.reservation.domain.ResStudent.resReservations, could not initialize proxy - no Session
 
-* 【后端】query did not return a unique result: 2 : getReservationByDateAndTimequantumAndClass
-
 * 【后端】关于管理员维护
 
-  * 在新增管理员时，密码可以为空。出于安全考虑，应该加个验证，防止空密码的出现。
-    而且现在的管理员维护界面，只能增加管理员。可以给admin，也就是活动室预约系统默认管理员增加一个功能，让他能够对其他管理员进行删除操作。
+  * 现在的管理员维护界面，只能增加管理员。可以给admin，也就是活动室预约系统默认管理员增加一个功能，让他能够对其他管理员进行删除操作。
+    
+* 【已修复】【后端】登入总次数逻辑错误
+
+  * 最近一次登入是显示未更新的最近一次登入，而登入总次数应该显示更新后的。而系统还是用的更新前的。即历史登入总次数为1，登入后应该显示2，后台更新为2，UI应该取更新后的值2而非1.
+
+* 【已修复】【后端】query did not return a unique result: 2 : getReservationByDateAndTimequantumAndClass

@@ -99,12 +99,6 @@
             <th>账号</th>
             <th>密码</th>
             <th>组织名称</th>
-            <%--
-            <th>性别</th>
-            <th>专业</th>
-            <th>班级</th>
-            <th>联系电话</th>
-             --%>
             <th>备注信息</th>
             <th>最近一次登入</th>
             <th>登入总次数</th>
@@ -119,20 +113,9 @@
                 <td>${s.sno}</td>
                 <td>${s.spassword}</td>
                 <td>${s.sname}</td>
-                    <%--
-                    <c:if test="${s.ssex == '1'}">
-                        <td>男</td>
-                    </c:if>
-                    <c:if test="${s.ssex == '2'}">
-                        <td>女</td>
-                    </c:if>
-                    <td>${s.smajor}</td>
-                    <td>${s.sclasscode}</td>
-                    <td>${s.sphone}</td>
-                    --%>
                 <td>${s.sremark}</td>
                 <td>${s.slastlogin}</td>
-                <td>${s.slogincount}</td>
+                <td>${s.slogincount+1}</td>
                 <c:if test="${s.status == '1'}">
                     <td>有效</td>
                 </c:if>
@@ -148,9 +131,6 @@
     </table>
     <a id="new" href="#" class="btn btn-success">新增</a>
     <a id="refresh" href="/reservation/admin.do?flag=showStudent" class="btn btn-success">刷新</a>
-    <%--
-    <a id="batch" href="#" class="btn btn-success">批量导入</a>
-    --%>
 </div>
 
 <c:import url="main_foot.jsp"/>

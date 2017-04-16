@@ -51,9 +51,9 @@ public class ReservationDaoImpl extends BasicDaoImpl implements
         Date todayEnd = this.getTodayBeginOrEnd(date, 2);
 
         return (ResReservation) this
-                .uniqueQuery(
+                .executeQuery(
                         "from ResReservation where rtargetdate >= ? and rtargetdate < ? and resTimequantum.tid = ? and resClass.cid = ? and rstatus = ?",
-                        new Object[]{todayBegin, todayEnd, tid, cid, "1"});
+                        new Object[]{todayBegin, todayEnd, tid, cid, "1"}).get(0);
     }
 
     /**
